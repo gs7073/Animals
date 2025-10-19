@@ -11,16 +11,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Dog d = new Dog("Albert");
-        Cat c = new Cat("SHelly");
-        Bird b = new Bird("Gili");
-        Fish f = new Fish("Darya");
-
-        String text = "";
-        text += d.getName() + " " + d.makeSound() + " " + d.move() + " " + d.eat() ;
-        text += c.getName() + " " + c.makeSound() + " " + c.move() + " " + c.eat() ;
-        text += b.getName() + " " + b.makeSound() + " " + b.move() + " " + b.eat() ;
-        text += f.getName() + " " + f.makeSound() + " " + f.move() + " " + f.eat() ;
 
     }
 }
