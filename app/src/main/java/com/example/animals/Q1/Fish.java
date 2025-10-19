@@ -10,18 +10,18 @@ class Fish extends Animal
     @Override
     public String makeSound()
     {
-        return "bubble";
+        return "bloop";
     }
 
     @Override
     public String move()
     {
-        return "swim (cannot move on land)";
+        return "swim (cant move on land)";
     }
 
     @Override
     public String eat()
     {
-        return "algae";
+        return "plankton";
     }
 }

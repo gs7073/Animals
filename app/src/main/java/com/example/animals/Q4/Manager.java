@@ -20,7 +20,7 @@ class Manager extends Employee
     @Override
     public String getDetails()
     {
-        return "Manager: " + name + ",  salary=" + baseSalary + ", bonus=" + bonus;
+        return "Manager: " + name + ",  base salary=" + baseSalary + ", bonus=" + bonus;
     }
 
     @Override

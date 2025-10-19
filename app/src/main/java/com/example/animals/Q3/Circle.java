@@ -12,13 +12,13 @@ package com.example.animals.Q3;
         @Override
         public double calculateArea()
         {
-            return Math.PI * radius * radius;
+            return 3.14 * radius * radius;
         }
 
         @Override
         public double calculatePerimeter()
         {
-            return 2 * Math.PI * radius;
+            return 2 * 3.14 * radius;
         }
     }
 
