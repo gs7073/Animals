@@ -17,10 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Fish f = new Fish("Darya");
 
         String text = "";
-        text += d.getName() + " " + d.makeSound() + " " + d.move() + " " + d.eat() + "\n";
-        text += c.getName() + " " + c.makeSound() + " " + c.move() + " " + c.eat() + "\n";
-        text += b.getName() + " " + b.makeSound() + " " + b.move() + " " + b.eat() + "\n";
-        text += f.getName() + " " + f.makeSound() + " " + f.move() + " " + f.eat() + "\n";
+        text += d.getName() + " " + d.makeSound() + " " + d.move() + " " + d.eat() ;
+        text += c.getName() + " " + c.makeSound() + " " + c.move() + " " + c.eat() ;
+        text += b.getName() + " " + b.makeSound() + " " + b.move() + " " + b.eat() ;
+        text += f.getName() + " " + f.makeSound() + " " + f.move() + " " + f.eat() ;
 
     }
 }
