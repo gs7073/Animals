@@ -11,10 +11,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        Dog d = new Dog("Rex");
-        Cat c = new Cat("Luna");
-        Bird b = new Bird("Chirp");
-        Fish f = new Fish("Nemo");
+        Dog d = new Dog("Albert");
+        Cat c = new Cat("SHelly");
+        Bird b = new Bird("Gili");
+        Fish f = new Fish("Darya");
 
         String text = "";
         text += d.getName() + " " + d.makeSound() + " " + d.move() + " " + d.eat() + "\n";
